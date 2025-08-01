@@ -1,0 +1,21 @@
+header .text-dark{
+    color: orangered !important;
+}
+
+nav .btn-primary{
+    background-color: orangered !important;
+}
+
+.active{
+    color: orange;
+}
+
+.nav-link:hover{
+    color: orangered !important ;
+    width: auto;
+    height: 35px;
+} 
+
+.bg-dark{
+    background-color: black !important;
+}
