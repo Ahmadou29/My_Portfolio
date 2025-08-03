@@ -16,21 +16,20 @@
 
   <!-- the navbar -->
   <header>
-
-    <nav class="navbar navbar-expand-lg text-white bg-dark">
+    <nav class="navbar navbar-expand-lg text-white bg-dark fixed-top border-white text-center">
       <div class="container">
         <a class="navbar-brand text-white pe-5 fs-4 fw-bolder" href="#">A<span class="text-dark">2</span>D</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-center mt-3" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-dark fw-bolder active" aria-current="page" href="#">Accueil</a>
+              <a class="nav-link text-dark fw-bolder active" aria-current="page" href="#accueil">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">À propos</a>
+              <a class="nav-link text-white" href="#a-propos">À propos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#">Formation</a>
@@ -47,44 +46,65 @@
             <li class="nav-item">
               <a class="nav-link text-white" href="#">Contact</a>
             </li>
+            <div class="btn-box">
+              <a href="#">Here Me</a>
+            </div>
           </ul>
-
-          
-        </div>
-        <div class="btn-box">
-          <a href="#">Here Me</a>
         </div>
       </div>
     </nav>
     <!-- the header -->
-    <section id="accueil" class="container-fluid bg-dark py-5  text-white">
-      <div class="container row py-5 m-3">
+    <div id="accueil" class="container-fluid py-2 text-white mt-5">
+      <div class="container row py-5 m-3 mt-4">
         <div class="col-md-6">
-          <h1 class="fw-bolder">Hi, i am <br> Amadou Diarrou Diallo</h1>
-          <h1 class="text-dark fs-1 fw-bolder">frontend developer.</h1>
-          <p class="fw-lighter">Artisan du web, je façonne le visible à partir de l’invisible. <br> À la croisée du code
+          <h1 class="fw-bolder">Hi, i am <br> <span class="text-dark fw-bolder">Amadou Diarrou Diallo</span></h1>
+          <h1 class="fs-1 fw-bolder">frontend developer.</h1>
+          <p class="fw-lighter">Artisan du web, je façonne le visible à partir de l’invisible. À la croisée du code
             et du design,
             je crée des interfaces où chaque pixel raconte une histoire. Front-End developer, mais surtout
-            tisseur d’expériences. <br> Je fais danser les composants, vibrer les transitions, et j’aspire à rendre
+            tisseur d’expériences. Je fais danser les composants, vibrer les transitions, et j’aspire à rendre
             chaque interaction intuitive, douce, humaine.
           </p>
-            <div class="home-sci pt-">
+          <div class="btn-box">
+            <a href="#">Here Me</a>
+          </div>
+          <!-- <div class="home-sci">
             <a href="https://www.facebook.com/share/176519iyrL/?mibextid=wwXIfr"><i class="bi bi-facebook"></i></a>
             <a href="https://www.linkedin.com/in/amadou-diarrou-diallo-b9685a328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="bi bi-linkedin"></i></a>
             <a href="https://github.com/"><i class="bi bi-github"></i></a>
             <a href="https://www.instagram.com/ahmad.diallo.73307?igsh=MTB6MHQ1aWd6Nnc5aA%3D%3D&utm_source=qr"><i class="bi bi-instagram"></i></a>
-        </div>
+            <a href="https://mail.google.com/mail/u/0/#settings/labels"><i class="bi bi-envelope"></i></a>
+        </div> -->
         </div>
         <div class="col-md-6 ">
-        <!-- IMAGES -->
+          <!-- IMAGES -->
+          <!-- <img src="images/bg1.jpg" alt="" class="img-fluid"> -->
         </div>
+
       </div>
-    </section>
+    </div>
   </header>
 
-  <!-- section  -->
+  <!-- section a propos -->
+  <section id="a-propos">
+    <div class="container-fluid borders text-center bg-dark h-100">
+      <h1 class="text-white pt-5 title">A propos</h1>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="m-4 p-4 text-white h-100"><span class="text-dark fw-bolder">A<span
+                class="text-white">2</span>D</span> est un développeur front-end spécialisé dans la création
+            d’interfaces modernes,
+            réactives et intuitives. Ma maîtrise des technologies telles que React.js,
+            HTML, CSS, Tailwind et JavaScript me permet de construire des solutions
+            performantes, accessibles et optimisées. Je suis rigoureux, autonome et
+            passionné par l’amélioration continue de l’expérience utilisateur</p>
+        </div>
+      </div>
+    </div>
 
+  </section>
 
+  <!-- formation -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

@@ -3,7 +3,30 @@
     margin: 0;
 }
 
-header .text-dark{
+header{
+    height: 100vh !important;
+    background-color: black;
+}
+
+#a-propos .borders{
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) , url("images/bg1.jpg") fixed;
+    background-size: cover ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    height: 60vh !important;
+    margin: auto;
+}
+
+#a-propos .borders p{
+    top: 0;
+    left: 0;
+    margin: auto;
+    font-style: italic;
+    font-size: 22px;
+}
+
+
+.text-dark{
     color: orangered !important;
 }
 
@@ -121,4 +144,18 @@ header .home-sci{
     background-color: orangered;
 }
 
+.title::before{
+    content: '';
+    background: orangered;
+    height: 1px;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+    border-radius: 10px;
+}
 
+/* #formation{
+    height: 100vh !important;
+} */
