@@ -165,30 +165,26 @@ header .home-sci{
 
 .title::before{
     content: '';
-    background: #4741a6;
-    height: 1px;
-    width: 170px;
+    background: #F9CE69;
+    height: 4px;
+    width: 120px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    transform: translateY(63px);
+    transform: translateY(40px);
     border-radius: 10px;
 }
 
-.text-red {
-    color: #F9CE69 !important;
-}
-
-
-
 #formation{
-    height: 100vh !important;
-    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) , url("images/c3d3a335cad0a773b023cbad31ed6c7c.jpg") fixed;
+    height: 100vh;
+}
+.card-body{
+    background-color: #d9eff7;
+    height: 55vh;
 }
 
-#formation .borders{
-    border: 1 px solid red;
-    border-top-left-radius: 20PX;
-
-    
+.shadow{
+    box-shadow:  2px 3px 0 5px;
 }
+
