@@ -4,30 +4,27 @@
 }
 
 header{
-    height: 100vh !important;
-    background-color: black;
+    height: 91vh !important;
+    background-color: #d9eff7;
 }
 
-#a-propos .borders{
-    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) , url("images/bg1.jpg") fixed;
-    background-size: cover ;
-    background-position: center ;
-    background-repeat: no-repeat ;
-    height: 60vh !important;
-    margin: auto;
+nav{
+    background-color: #4741a6 !important;
 }
 
-#a-propos .borders p{
-    top: 0;
-    left: 0;
-    margin: auto;
-    font-style: italic;
-    font-size: 22px;
+
+nav .text-dark{
+    color: #F9CE69 !important;
 }
 
+nav .nav-link:hover{
+    color: #F9CE69 !important ;
+    width: auto;
+    height: 35px;
+} 
 
 .text-dark{
-    color: orangered !important;
+    color: #4741a6 !important;
 }
 
 nav .btn-primary{
@@ -35,18 +32,18 @@ nav .btn-primary{
 }
 
 .active{
-    color: orange;
+    color: #F9CE69 !important;
 }
 
 .nav-link:hover{
-    color: orangered !important ;
+    color: #4741a6 !important ;
     width: auto;
     height: 35px;
 } 
 
-.bg-dark{
-    background-color: black !important;
-}
+/* .bg-dark{
+    background-color: blac !important;
+} */
 
 .btn-box a{
     position: relative;
@@ -56,12 +53,11 @@ nav .btn-primary{
     align-items: center;
     width: 170px;
     height: 2.6rem;
-    margin-top: 10px;
-    background: orangered;
-    border: 1px solid orangered;
+    background: #d9eff7;
+    border: 1px solid #4741a6;
     border-radius: 10px;
     font-size: 19px;
-    color: black;
+    color: #4741a6;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 2px;
@@ -72,16 +68,16 @@ nav .btn-primary{
 }
 
 .btn-box a:hover{
-    color: orangered;
+    color: #F9CE69;
 }
 
 .btn-box a:nth-child(2){
-    background-color: transparent;
-    color: orangered;
+    /* background-color: white; */
+    /* color: RED; */
 }
 
 .btn-box a:nth-child(2):hover{
-    color: orangered;
+    /* color: orangere; */
 }
 
 .btn-box a::before{
@@ -91,8 +87,8 @@ nav .btn-primary{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: black;
-    color: orangered;
+    background-color: #4741a6;
+    color: #F9CE69;
     z-index: -1;
     transition: .5s;
 }
@@ -144,9 +140,32 @@ header .home-sci{
     background-color: orangered;
 }
 
+/*-------------------------------------- a propôs section --------------------------------------*/
+
+#a-propos{
+    height: 100vh !important;
+    padding-top: 10vh;
+}
+
+#a-propos .borders{
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) , url("images/c3d3a335cad0a773b023cbad31ed6c7c.jpg") fixed;
+    background-size: cover ;
+    background-position: center ;
+    background-repeat: no-repeat ;
+    height: 90vh !important;
+}
+
+#a-propos .borders p{
+    top: 0;
+    left: 0;
+    margin: auto;
+    font-style: italic;
+    font-size: 25;
+}
+
 .title::before{
     content: '';
-    background: orangered;
+    background: #4741a6;
     height: 1px;
     width: 170px;
     margin-left: auto;
@@ -156,6 +175,20 @@ header .home-sci{
     border-radius: 10px;
 }
 
-/* #formation{
+.text-red {
+    color: #F9CE69 !important;
+}
+
+
+
+#formation{
     height: 100vh !important;
-} */
+    background-color: black;
+}
+
+#formation .borders{
+    border: 1 px solid red;
+    border-top-left-radius: 20PX;
+
+    
+}
