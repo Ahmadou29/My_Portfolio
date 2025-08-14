@@ -33,7 +33,7 @@
                         <a class="nav-link text-white" href="formation.html">Formation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Compétences</a>
+                        <a class="nav-link text-white" href="competence.html">Compétences</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Expérience</a>
@@ -54,40 +54,97 @@
 
     <!-- section a propos -->
     <section id="a-propos">
-        <div class="container-fluid borders text-center">
-            <h3 class="title text-white">A propos</h3>
+        <div class="container-fluid borders">
+            <h3 class="title text-white text-center">A propos</h3>
             <div class="row">
-                <div class="col-md-5">
-                    <img src="images/" alt="" class="img-fluid">
+                <div class="col-md-4">
+                    <!-- <img src="images/" alt="" class="img-fluid"> -->
+                </div>
+                <div class="col-md-8 py-4">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h5>Qui suis-je ?</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-cente">Je m’appelle <strong class="text-dark"><span
+                                            class="fw-bolder">Amadou <span class="text-whit">D
+                                            </span>Diallo</span></strong> développeur front-end passionné et amoureux du
+                                        détail.
+                                        Je transforme des maquettes en expériences interactives, fluides et responsives.
+                                        Chaque ligne de
+                                        code que j’écris est pensée pour raconter une histoire, pour captiver
+                                        l’utilisateur et donner
+                                        vie à une idée.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <h5>Ce que je fais</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p><strong class="text-dark">Je travaille principalement</strong> avec React.js, Tailwind CSS, HTML5, CSS3, et
+                                        JavaScript.
+                                        J’accorde une importance folle à la performance, à la lisibilité du code, et à
+                                        l’expérience
+                                        utilisateur.
+                                        Pour moi, un bon site web, c’est un site qui réagit vite, s’adapte partout, et
+                                        respire le bon
+                                        goût.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <h5>Ma philosophie</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong class="text-dark">Je code comme un artisan construit une maison :</strong>
+                                    avec patience, avec rigueur, et avec une vision claire du résultat.
+                                    Je crois en un web qui est utile, beau, rapide — et surtout humain.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h5>Ma vision du web</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong class="text-dark">Un site ne doit pas juste être "joli".</strong>
+                                    Il doit être vivant, intuitif, impactant.
+                                    Je conçois des interfaces qui parlent à l’œil autant qu’au cœur, avec un souci du
+                                    détail et un
+                                    respect profond de l’identité de chaque projet.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-md-7 text-center text-white">
-                    <h3 class="mt-2 active">Qui suis-je ? </h3>
-                    <p class=" text-white"> Je m’appelle <span class="text-dark fw-bolder">Amadou <span
-                                class="text-white">D
-                            </span>Diallo</span> développeur front-end passionné et amoureux du détail.                         Je transforme des maquettes en expériences interactives, fluides et responsives. Chaque ligne de
-                        code que j’écris est pensée pour raconter une histoire, pour captiver l’utilisateur et donner
-                        vie à une idée.
-                    </p>
-                    <h3 class="mt-3 active">Ce que je fais</h3>
-                    <p>Je travaille principalement avec React.js, Tailwind CSS, HTML5, CSS3, et JavaScript.
-                        J’accorde une importance folle à la performance, à la lisibilité du code, et à l’expérience
-                        utilisateur.
-                        Pour moi, un bon site web, c’est un site qui réagit vite, s’adapte partout, et respire le bon
-                        goût.</p>
-
-                    <h3 class="mt-3 active">Ma philosophie</h3>
-                    <p>Je code comme un artisan construit une maison :
-                        avec patience, avec rigueur, et avec une vision claire du résultat.
-                        Je crois en un web qui est utile, beau, rapide — et surtout humain.</p>
-                    <h3 class="mt-3 active">Ma vision du web</h3>
-                    <p>Un site ne doit pas juste être "joli".
-                        Il doit être vivant, intuitif, impactant.
-                        Je conçois des interfaces qui parlent à l’œil autant qu’au cœur, avec un souci du détail et un
-                        respect profond de l’identité de chaque projet.
-
-                    </p>
-                </div>
             </div>
         </div>
 

@@ -148,7 +148,7 @@ header .home-sci{
 }
 
 #a-propos .borders{
-    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) , url("images/c3d3a335cad0a773b023cbad31ed6c7c.jpg") fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) , url("images/c3d3a335cad0a773b023cbad31ed6c7c.j") fixed;
     background-size: cover ;
     background-position: center ;
     background-repeat: no-repeat ;
@@ -188,3 +188,7 @@ header .home-sci{
     box-shadow:  2px 3px 0 5px;
 }
 
+h5{
+    color: #4741a6;
+    font-weight: bold;
+}
