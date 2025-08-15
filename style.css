@@ -4,8 +4,8 @@
 }
 
 header{
-    height: 91vh !important;
-    background-color: #d9eff7;
+    height: 92vh !important;
+    background-color: #d9eff7; 
 }
 
 nav{
@@ -144,16 +144,12 @@ header .home-sci{
 
 #a-propos{
     height: 100vh !important;
-    padding-top: 10vh;
-}
-
-#a-propos .borders{
-    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) , url("images/c3d3a335cad0a773b023cbad31ed6c7c.j") fixed;
+     background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)) , url("images/bg1.jpg") fixed;
     background-size: cover ;
     background-position: center ;
     background-repeat: no-repeat ;
-    height: 93vh !important;
 }
+
 
 #a-propos .borders p{
     top: 0;
@@ -191,4 +187,15 @@ header .home-sci{
 h5{
     color: #4741a6;
     font-weight: bold;
+}
+
+/* competences  */
+#competences{
+    height: 95.8vh;
+    background: linear-gradient(rgba(6, 6, 6, 0.55), rgba(8, 3, 3, 0.55)) , url("images/Formation.jpg") fixed ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+
+
 }
